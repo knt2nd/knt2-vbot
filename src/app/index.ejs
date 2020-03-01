@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head prefix="og: http://ogp.me/ns# website: http://ogp.me/ns/website#">
+<meta charset="utf-8">
+<title><%= ENV.app.title %></title>
+<meta name="keywords" content="voice bot, discord bot, smart speaker">
+<meta name="description" content="<%= ENV.app.description %>">
+<meta name="copyright" content="<%= ENV.app.copyright %>">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="<%= ENV.app.title %>">
+<meta property="og:title" content="<%= ENV.app.title %>">
+<meta property="og:description" content="<%= ENV.app.description %>">
+<% if (ENV.uri) { %>
+  <meta property="og:url" content="<%= ENV.uri %>">
+  <meta property="og:image" content="<%= ENV.uri %>og-image.png">
+<% } %>
+<meta property="twitter:card" content="summary">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<style>
+html {
+  overflow-y: scroll;
+}
+
+#splash {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  font-size: large;
+  text-align: center;
+}
+
+#splash,
+#splash a {
+  color: #ddd;
+}
+
+#splash-message {
+  position: fixed;
+  top: 48%;
+  width: 100%;
+}
+
+#splash-fallback {
+  display: none;
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="splash">
+    <div id="splash-message">
+      <div>Loading...</div>
+      <div id="splash-fallback">
+        <a href="https://www.google.com/chrome/">Get Chrome</a>
+      </div>
+    </div>
+  </div>
+  <script>
+    setTimeout(function() {
+      var fallback = document.getElementById('splash-fallback');
+      if (fallback) fallback.style.display = 'block';
+    }, 5000);
+  </script>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "dependencies": {
+    "yt-player": "^3.4.3"
+  }
+}

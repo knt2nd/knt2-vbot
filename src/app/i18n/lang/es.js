@@ -1,0 +1,33 @@
+export default {
+  code: 'es',
+  name: 'Español',
+  locales: [
+    'es-ES', 'es-AR', 'es-BO', 'es-CL', 'es-CO', 'es-CR', 'es-EC',
+    'es-SV', 'es-US', 'es-GT', 'es-HN', 'es-MX', 'es-NI', 'es-PA',
+    'es-PY', 'es-PE', 'es-PR', 'es-DO', 'es-UY', 'es-VE',
+  ],
+  stt: {
+    engines: {
+      'es-AR': 'Argentina',
+      'es-BO': 'Bolivia',
+      'es-CL': 'Chile',
+      'es-CO': 'Colombia',
+      'es-CR': 'Costa Rica',
+      'es-EC': 'Ecuador',
+      'es-SV': 'El Salvador',
+      'es-ES': 'España',
+      'es-US': 'Estados Unidos',
+      'es-GT': 'Guatemala',
+      'es-HN': 'Honduras',
+      'es-MX': 'México',
+      'es-NI': 'Nicaragua',
+      'es-PA': 'Panamá',
+      'es-PY': 'Paraguay',
+      'es-PE': 'Perú',
+      'es-PR': 'Puerto Rico',
+      'es-DO': 'República Dominicana',
+      'es-UY': 'Uruguay',
+      'es-VE': 'Venezuela',
+    },
+  },
+};

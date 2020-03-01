@@ -1,0 +1,43 @@
+extends:
+  - "eslint:recommended"
+  - "plugin:vue/recommended"
+env:
+  node: true
+  browser: true
+  es6: true
+parserOptions:
+  sourceType: module
+globals:
+  Discord: false
+rules:
+  eqeqeq: error
+  semi: error
+  space-before-blocks: error
+  no-trailing-spaces: error
+  keyword-spacing:
+      - error
+      - after: true
+  linebreak-style:
+    - error
+    - unix
+  no-unused-vars:
+    - error
+    - args: none
+  quotes:
+    - error
+    - single
+  indent:
+    - error
+    - 2
+    - SwitchCase: 1
+  comma-spacing:
+    - error
+    - after: true
+  comma-dangle:
+    - error
+    - always-multiline
+  no-irregular-whitespace:
+    - error
+    - skipRegExps: true
+      skipTemplates: true
+      skipComments: true

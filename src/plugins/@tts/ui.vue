@@ -1,0 +1,25 @@
+<template>
+  <k-plugin
+    v-if="p.active"
+    title="TTS"
+    icon="mdi-text-to-speech"
+  >
+    <v-textarea
+      v-model="d.text"
+      :disabled="d.disabled"
+      placeholder="..."
+      rows="2"
+      dense
+      @keyup="onkeyup"
+    />
+    <v-layout justify-end>
+      <v-btn
+        :disabled="d.disabled"
+        class="caption"
+        @click="speak"
+      >
+        Submit
+      </v-btn>
+    </v-layout>
+  </k-plugin>
+</template>

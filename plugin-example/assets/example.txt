@@ -1,0 +1,1 @@
+This is going to dist/plugins/example/assets/
