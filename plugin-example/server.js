@@ -1,11 +1,7 @@
 /*
 
-cd __HERE__
-node server
-
 Here is the WebSocket server example.
-Launch this server before the app.
-You'd see ping/pong messages on chat/voice events.
+You'd see ping/pong messages when chat/voice events fire.
 That means you can do whatever you want on your local machine without the browser limitation.
 For example, when someone says "OK Google, turn on the light" in your world in VRChat,
 send keyboard emulation or OSC from this server, then a world gimmick activates to turn on the light.
