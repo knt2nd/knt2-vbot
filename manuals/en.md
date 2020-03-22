@@ -66,7 +66,7 @@ Kanata 2nd Voice Bot can run as a smart speaker over the Internet. The setup pro
 
 ### Virtual audio device
 
-Kanata 2nd Voice Bot needs two pair of virtual playback/recording devices which are connected to each other with a virtual cable. You can get them from [Voicemeeter Banana](https://www.vb-audio.com/Voicemeeter/banana.htm). We don't need the software itself but those virtual audio devices the software has.
+Kanata 2nd Voice Bot needs two pairs of virtual playback/recording devices which are connected to each other with a virtual cable. You can get them from [Voicemeeter Banana](https://www.vb-audio.com/Voicemeeter/banana.htm). We don't need the software itself but those virtual audio devices the software has.
 
 After installed Voicemeeter Banana, your audio devices should be like this.  
 ![Installed audio devices](images/en/audio-installed.png)  
@@ -84,7 +84,7 @@ I highly recommend you to use your second machine for safety, not to accidentall
 
 ### Audio settings
 
-You have already two pair of virtual playback/recording devices, don't you? The next thing you need to do is change the audio settings.
+You have already two pairs of virtual playback/recording devices, don't you? The next thing you need to do is change the audio settings.
 
 Go to Windows **Settings** -> **System** -> **Sound** -> **Advanced Sound Options** -> **App volume and device preferences**. When you play audio on Chrome, its name should be there. Then you can change its audio device settings. You have to change like this.  
 ![Chrome audio devices](images/en/audio-routing.png)  

@@ -14,7 +14,7 @@ Kanata 2nd Voice Bot is a smart speaker over the Internet, supports lots of lang
 ## Requirements
 
 - [Latest Google Chrome](https://www.google.com/chrome/)
-- Two pair of virtual playback/recording devices ([Voicemeeter Banana](https://www.vb-audio.com/Voicemeeter/banana.htm) recommended)
+- Two pairs of virtual playback/recording devices ([Voicemeeter Banana](https://www.vb-audio.com/Voicemeeter/banana.htm) recommended)
 - [Node.js](https://nodejs.org/) v12 or higher
 
 ## Install
