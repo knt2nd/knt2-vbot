@@ -32,7 +32,7 @@ const tasks = {
     }
     fs.writeFileSync(path.join(__dirname, 'temp/plugins.js'), script);
     console.log('[CREATED] plugins.js:', plugins.join(', '));
-    axios.get('https://raw.githubusercontent.com/discordjs/discord.js/webpack/discord.stable.js')
+    axios.get('https://raw.githubusercontent.com/discordjs/discord.js/webpack/discord.11.6.4.min.js')
       .then(res => {
         fs.writeFileSync(path.join(__dirname, 'temp/discord.js'), res.data);
         console.log('[CREATED] discord.js');
