@@ -17,8 +17,8 @@ const tasks = {
       if (fs.existsSync(pkgPath)) {
         const pkg = require(pkgPath);
         if (pkg.dependencies || pkg.devDependencies) {
-          process.chdir(dirPath);
-          console.log(child_process.execSync('npm i').toString());
+          const res = child_process.execSync('npm i', { cwd: dirPath });
+          console.log(res.toString());
         }
       }
       if (fs.existsSync(initPath)) require(initPath);
