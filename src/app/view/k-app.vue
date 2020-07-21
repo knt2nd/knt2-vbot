@@ -2,7 +2,7 @@
   <v-app>
     <v-navigation-drawer
       v-model="drawer"
-      :mobile-break-point="ui.drawerWidth + 240"
+      :mobile-breakpoint="ui.drawerWidth + 240"
       :width="ui.drawerWidth"
       app
     >
@@ -98,7 +98,7 @@
             <v-switch
               v-if="!hidden['settings.chat.speech']"
               v-model="g.chat.speech"
-              prepend-icon="mdi-voice"
+              prepend-icon="mdi-account-voice"
               label="Chat to Speech"
               dense
               @change="triggerByGlobal('chat.speech', $event);"

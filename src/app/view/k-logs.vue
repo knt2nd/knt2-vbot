@@ -7,7 +7,7 @@
       :style="log.styles"
       class="log"
     >
-      <div class="log-time overline">
+      <div class="log-time">
         {{ log.time }}
       </div>
       <div class="log-message body-2">
@@ -34,8 +34,9 @@ export default {
 }
 
 .log-time {
-  padding: 0.8em 1.4em;
+  padding: 0.5em 1.4em;
   position: absolute;
+  font-size: 0.7em;
 }
 
 .log-message {

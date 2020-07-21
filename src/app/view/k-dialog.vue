@@ -25,10 +25,9 @@
           class="pa-0"
           style="height: 300px; overflow: scroll"
         >
-          <code
-            class="pa-3"
-            style="border-radius: 0;"
-          >{{ data.code }}</code>
+          <div
+            class="code"
+          >{{ data.code }}</div>
         </v-container>
         <v-container v-if="data.multiSelect">
           <v-select
@@ -79,3 +78,14 @@ export default {
   },
 };
 </script>
+
+<style>
+.code {
+  padding: 0.6em 1em;
+  background-color: #f5f5f5;
+  color: #bd4147;
+  white-space: pre-wrap;
+  font-family: monospace,monospace;
+  font-size: 0.8em;
+}
+</style>
