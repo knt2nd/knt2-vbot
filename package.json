@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@mdi/font": "^5.3.45",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "axios-jsonp": "^1.0.4",
     "copyfiles": "^2.3.0",
     "css-loader": "^3.6.0",
