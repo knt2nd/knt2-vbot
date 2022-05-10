@@ -2,6 +2,8 @@
 
 Kanata 2nd Voice Bot is a smart speaker over the Internet, supports lots of languages.
 
+[Demo Movie (Developer's Tweet)](https://twitter.com/knt2nd/status/1218906483842150400)
+
 [Live Demo](https://knt2-vbot.web.app/)
 
 ![Demo animation](manuals/images/ja/app-music.gif)
