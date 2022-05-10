@@ -1,4 +1,4 @@
-import '../../temp/discord';
+import './discord';
 import Client from './client/';
 
 let client = null;
